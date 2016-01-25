@@ -4,6 +4,7 @@ var fs = require('fs');
 var path = require('path');
 var jshint = require('jshint').JSHINT;
 var async = require('async');
+var filesToIgnore = ['feedhenry-js-latest.js'] 
 
 var foldersToProcess = [
 		'js'
