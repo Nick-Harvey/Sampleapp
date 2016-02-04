@@ -8,57 +8,57 @@
     },
     "installed_plugins": {
         "cordova-plugin-console": {
-            "PACKAGE_NAME": "com.startapplabs.ionFullApp"
+            "PACKAGE_NAME": "com.redhat.SKOApp"
         },
         "cordova-plugin-device": {
-            "PACKAGE_NAME": "com.startapplabs.ionFullApp"
+            "PACKAGE_NAME": "com.redhat.SKOApp"
         },
         "cordova-plugin-dialogs": {
-            "PACKAGE_NAME": "com.startapplabs.ionFullApp"
+            "PACKAGE_NAME": "com.redhat.SKOApp"
         },
         "cordova-plugin-globalization": {
-            "PACKAGE_NAME": "com.startapplabs.ionFullApp"
+            "PACKAGE_NAME": "com.redhat.SKOApp"
         },
         "cordova-plugin-extension": {
-            "PACKAGE_NAME": "com.startapplabs.ionFullApp"
+            "PACKAGE_NAME": "com.redhat.SKOApp"
         },
         "com.synconset.imagepicker": {
-            "PACKAGE_NAME": "com.startapplabs.ionFullApp"
+            "PACKAGE_NAME": "com.redhat.SKOApp"
         },
         "nl.x-services.plugins.socialsharing": {
-            "PACKAGE_NAME": "com.startapplabs.ionFullApp"
+            "PACKAGE_NAME": "com.redhat.SKOApp"
         },
         "com.rjfun.cordova.iad": {
-            "PACKAGE_NAME": "com.startapplabs.ionFullApp"
+            "PACKAGE_NAME": "com.redhat.SKOApp"
         },
         "cordova-plugin-admobpro": {
-            "PACKAGE_NAME": "com.startapplabs.ionFullApp"
+            "PACKAGE_NAME": "com.redhat.SKOApp"
         },
         "cordova-plugin-whitelist": {
-            "PACKAGE_NAME": "com.startapplabs.ionFullApp"
+            "PACKAGE_NAME": "com.redhat.SKOApp"
         },
         "de.appplant.cordova.plugin.email-composer": {
-            "PACKAGE_NAME": "com.startapplabs.ionFullApp"
+            "PACKAGE_NAME": "com.redhat.SKOApp"
         },
         "org.pushandplay.cordova.apprate": {
-            "PACKAGE_NAME": "com.startapplabs.ionFullApp"
+            "PACKAGE_NAME": "com.redhat.SKOApp"
         },
         "com.phonegap.plugins.PushPlugin": {
-            "PACKAGE_NAME": "com.startapplabs.ionFullApp"
+            "PACKAGE_NAME": "com.redhat.SKOApp"
         },
         "ionic-plugin-keyboard": {
-            "PACKAGE_NAME": "com.startapplabs.ionFullApp"
+            "PACKAGE_NAME": "com.redhat.SKOApp"
         },
         "cordova-plugin-geolocation": {
-            "PACKAGE_NAME": "com.startapplabs.ionFullApp"
+            "PACKAGE_NAME": "com.redhat.SKOApp"
         },
         "cordova-plugin-splashscreen": {
-            "PACKAGE_NAME": "com.startapplabs.ionFullApp"
+            "PACKAGE_NAME": "com.redhat.SKOApp"
         }
     },
     "dependent_plugins": {
         "cordova-plugin-inappbrowser": {
-            "PACKAGE_NAME": "com.startapplabs.ionFullApp"
+            "PACKAGE_NAME": "com.redhat.SKOApp"
         }
     }
 }
