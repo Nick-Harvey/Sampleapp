@@ -40,11 +40,11 @@
 				"url":"http://feeds.bbci.co.uk/sport/0/rss.xml"
 			},
 			{
-				"id":"espn",
-				"title":"ESPN",
-				"description":"Latest news from ESPN.com",
+				"id":"sky",
+				"title":"Sky",
+				"description":"Latest news from sky.com",
 				"image":"img/feeds/logos/Datacenter.png",
-				"url":"http://sports.espn.go.com/espn/rss/news"
+				"url":"#"
 			}
 		]
 	},

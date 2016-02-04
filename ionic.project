@@ -1,5 +1,5 @@
 {
-  "name": "ionFullApp",
+  "name": "SKOApp",
   "app_id": "",
   "gulpStartupTasks": [
     "sass",

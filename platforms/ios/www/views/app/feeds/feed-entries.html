@@ -1,35 +1,15 @@
-<ion-view class="feed-entries-view">
+<ion-view class="wordpress-view">
+  <ion-nav-buttons side="left">
+    <button menu-toggle="left" class="button button-icon icon ion-navicon"></button>
+  </ion-nav-buttons>
   <ion-nav-title>
-    <span>{{sourceTitle}}</span>
+    <span>WordPress</span>
   </ion-nav-title>
   <ion-content>
     <!-- Refresh to get the new posts -->
     <ion-refresher pulling-text="Pull to refresh..." on-refresh="doRefresh()">
     </ion-refresher>
 
-    <!-- <div class="entries-list">
-      <div ng-repeat="entry in feed.entries" class="list card entry-item">
-        <div class="entry-heading item item-text-wrap">
-          <h2 class="entry-title" ng-bind-html="entry.title | rawHtml"></h2>
-          <p class="entry-author">
-            Published <span>{{ entry.publishedDate | parseDate | amTimeAgo }}</span>
-          </p>
-        </div>
-        <div class="entry-content item item-text-wrap">
-          <p class="entry-excerpt" dynamic-anchor-fix ng-bind-html="entry.contentSnippet | rawHtml"></p>
-          <div class="entry-actions row">
-            <div class="actions col col-center col-66">
-              <a class="button button-icon icon ion-bookmark" ng-click="bookmarkPost(entry)"></a>
-            </div>
-            <div class="read-more col col-center col-33">
-              <a ui-sref="app.post-view({postId: post.id})" class="button button-small button-block button-assertive">
-                Read more
-              </a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div> -->
     <div class="posts-list">
       <div ng-repeat="post in posts" class="list card post-item">
         <div class="post-heading item item-text-wrap">
@@ -53,5 +33,9 @@
         </div>
       </div>
     </div>
+
+    <!-- Infinit scroll -->
+    <ion-infinite-scroll ng-if="moreDataCanBeLoaded()" on-infinite="loadMoreData()" distance="1%" icon="ion-loading-c">
+    </ion-infinite-scroll>
   </ion-content>
 </ion-view>
