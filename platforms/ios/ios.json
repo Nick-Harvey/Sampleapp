@@ -9,35 +9,7 @@
                 "parents": {
                     "/*": [
                         {
-                            "xml": "<feature name=\"Console\"><param name=\"ios-package\" value=\"CDVLogger\" /></feature>",
-                            "count": 1
-                        },
-                        {
-                            "xml": "<feature name=\"SocialSharing\"><param name=\"ios-package\" value=\"SocialSharing\" /><param name=\"onload\" value=\"true\" /></feature>",
-                            "count": 1
-                        },
-                        {
-                            "xml": "<feature name=\"iAd\"><param name=\"ios-package\" value=\"iAdPlugin\" /></feature>",
-                            "count": 1
-                        },
-                        {
-                            "xml": "<feature name=\"AdMob\"><param name=\"ios-package\" value=\"CDVAdMobPlugin\" /><param name=\"onload\" value=\"true\" /></feature>",
-                            "count": 1
-                        },
-                        {
-                            "xml": "<feature name=\"EmailComposer\"><param name=\"ios-package\" value=\"APPEmailComposer\" /></feature>",
-                            "count": 1
-                        },
-                        {
-                            "xml": "<feature name=\"Notification\"><param name=\"ios-package\" value=\"CDVNotification\" /></feature>",
-                            "count": 1
-                        },
-                        {
-                            "xml": "<feature name=\"Globalization\"><param name=\"ios-package\" value=\"CDVGlobalization\" /></feature>",
-                            "count": 1
-                        },
-                        {
-                            "xml": "<feature name=\"AppRate\"><param name=\"ios-package\" value=\"CDVAppRate\" /></feature>",
+                            "xml": "<feature name=\"Keyboard\"><param name=\"ios-package\" onload=\"true\" value=\"IonicKeyboard\" /></feature>",
                             "count": 1
                         },
                         {
@@ -45,7 +17,27 @@
                             "count": 1
                         },
                         {
-                            "xml": "<feature name=\"Keyboard\"><param name=\"ios-package\" onload=\"true\" value=\"IonicKeyboard\" /></feature>",
+                            "xml": "<feature name=\"iAd\"><param name=\"ios-package\" value=\"iAdPlugin\" /></feature>",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<feature name=\"ImagePicker\"><param name=\"ios-package\" value=\"SOSPicker\" /></feature>",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<feature name=\"AdMob\"><param name=\"ios-package\" value=\"CDVAdMobPlugin\" /><param name=\"onload\" value=\"true\" /></feature>",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<feature name=\"Console\"><param name=\"ios-package\" value=\"CDVLogger\" /></feature>",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<feature name=\"Device\"><param name=\"ios-package\" value=\"CDVDevice\" /></feature>",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<feature name=\"Notification\"><param name=\"ios-package\" value=\"CDVNotification\" /></feature>",
                             "count": 1
                         },
                         {
@@ -53,7 +45,35 @@
                             "count": 1
                         },
                         {
+                            "xml": "<feature name=\"Globalization\"><param name=\"ios-package\" value=\"CDVGlobalization\" /></feature>",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<feature name=\"GooglePlus\"><param name=\"ios-package\" value=\"GooglePlus\" /><param name=\"onload\" value=\"true\" /></feature>",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<access origin=\"https://accounts.google.com/*\" />",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<feature name=\"InAppBrowser\"><param name=\"ios-package\" value=\"CDVInAppBrowser\" /></feature>",
+                            "count": 1
+                        },
+                        {
                             "xml": "<feature name=\"SplashScreen\"><param name=\"ios-package\" value=\"CDVSplashScreen\" /><param name=\"onload\" value=\"true\" /></feature>",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<feature name=\"EmailComposer\"><param name=\"ios-package\" value=\"APPEmailComposer\" /></feature>",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<feature name=\"SocialSharing\"><param name=\"ios-package\" value=\"SocialSharing\" /><param name=\"onload\" value=\"true\" /></feature>",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<feature name=\"AppRate\"><param name=\"ios-package\" value=\"CDVAppRate\" /></feature>",
                             "count": 1
                         }
                     ]
@@ -72,16 +92,28 @@
                             "xml": "<string />",
                             "count": 1
                         }
+                    ],
+                    "CFBundleURLTypes": [
+                        {
+                            "xml": "<array><dict><key>CFBundleTypeRole</key><string>Editor</string><key>CFBundleURLName</key><string>com.redhat.SKOApp</string><key>CFBundleURLSchemes</key><array><string>com.redhat.SKOApp</string></array></dict><dict><key>CFBundleTypeRole</key><string>Editor</string><key>CFBundleURLName</key><string>REVERSED_CLIENT_ID</string><key>CFBundleURLSchemes</key><array><string>849511726163-unqhl9aoshl0h2ripn0kj15vskn4h12a.apps.googleusercontent.com</string></array></dict></array>",
+                            "count": 1
+                        }
+                    ],
+                    "LSApplicationQueriesSchemes": [
+                        {
+                            "xml": "<array><string>com.redhat.SKOApp</string><string>849511726163-unqhl9aoshl0h2ripn0kj15vskn4h12a.apps.googleusercontent.com</string><string>com-google-gidconsent</string><string>com-google-gidconsent-google</string><string>com.google.gppconsent.2.4.0</string><string>com.google.gppconsent.2.4.1</string></array>",
+                            "count": 1
+                        }
                     ]
                 }
             }
         }
     },
     "installed_plugins": {
-        "cordova-plugin-console": {
+        "ionic-plugin-keyboard": {
             "PACKAGE_NAME": "com.redhat.SKOApp"
         },
-        "nl.x-services.plugins.socialsharing": {
+        "com.phonegap.plugins.PushPlugin": {
             "PACKAGE_NAME": "com.redhat.SKOApp"
         },
         "cordova-plugin-extension": {
@@ -90,7 +122,35 @@
         "com.rjfun.cordova.iad": {
             "PACKAGE_NAME": "com.redhat.SKOApp"
         },
+        "com.synconset.imagepicker": {
+            "PACKAGE_NAME": "com.redhat.SKOApp"
+        },
         "cordova-plugin-admobpro": {
+            "PACKAGE_NAME": "com.redhat.SKOApp"
+        },
+        "cordova-plugin-console": {
+            "PACKAGE_NAME": "com.redhat.SKOApp"
+        },
+        "cordova-plugin-device": {
+            "PACKAGE_NAME": "com.redhat.SKOApp"
+        },
+        "cordova-plugin-dialogs": {
+            "PACKAGE_NAME": "com.redhat.SKOApp"
+        },
+        "cordova-plugin-geolocation": {
+            "PACKAGE_NAME": "com.redhat.SKOApp"
+        },
+        "cordova-plugin-globalization": {
+            "PACKAGE_NAME": "com.redhat.SKOApp"
+        },
+        "cordova-plugin-googleplus": {
+            "REVERSED_CLIENT_ID": "849511726163-unqhl9aoshl0h2ripn0kj15vskn4h12a.apps.googleusercontent.com",
+            "PACKAGE_NAME": "com.redhat.SKOApp"
+        },
+        "cordova-plugin-inappbrowser": {
+            "PACKAGE_NAME": "com.redhat.SKOApp"
+        },
+        "cordova-plugin-splashscreen": {
             "PACKAGE_NAME": "com.redhat.SKOApp"
         },
         "cordova-plugin-whitelist": {
@@ -99,30 +159,56 @@
         "de.appplant.cordova.plugin.email-composer": {
             "PACKAGE_NAME": "com.redhat.SKOApp"
         },
-        "cordova-plugin-dialogs": {
-            "PACKAGE_NAME": "com.redhat.SKOApp"
-        },
-        "cordova-plugin-globalization": {
+        "nl.x-services.plugins.socialsharing": {
             "PACKAGE_NAME": "com.redhat.SKOApp"
         },
         "org.pushandplay.cordova.apprate": {
-            "PACKAGE_NAME": "com.redhat.SKOApp"
-        },
-        "com.phonegap.plugins.PushPlugin": {
-            "PACKAGE_NAME": "com.redhat.SKOApp"
-        },
-        "ionic-plugin-keyboard": {
-            "PACKAGE_NAME": "com.redhat.SKOApp"
-        },
-        "cordova-plugin-geolocation": {
-            "PACKAGE_NAME": "com.redhat.SKOApp"
-        },
-        "cordova-plugin-splashscreen": {
             "PACKAGE_NAME": "com.redhat.SKOApp"
         }
     },
     "dependent_plugins": {},
     "modules": [
+        {
+            "file": "plugins/ionic-plugin-keyboard/www/ios/keyboard.js",
+            "id": "ionic-plugin-keyboard.keyboard",
+            "pluginId": "ionic-plugin-keyboard",
+            "clobbers": [
+                "cordova.plugins.Keyboard"
+            ],
+            "runs": true
+        },
+        {
+            "file": "plugins/com.phonegap.plugins.PushPlugin/www/PushNotification.js",
+            "id": "com.phonegap.plugins.PushPlugin.PushNotification",
+            "pluginId": "com.phonegap.plugins.PushPlugin",
+            "clobbers": [
+                "PushNotification"
+            ]
+        },
+        {
+            "file": "plugins/com.rjfun.cordova.iad/www/iAd.js",
+            "id": "com.rjfun.cordova.iad.iAd",
+            "pluginId": "com.rjfun.cordova.iad",
+            "clobbers": [
+                "window.iAd"
+            ]
+        },
+        {
+            "file": "plugins/com.synconset.imagepicker/www/imagepicker.js",
+            "id": "com.synconset.imagepicker.ImagePicker",
+            "pluginId": "com.synconset.imagepicker",
+            "clobbers": [
+                "plugins.imagePicker"
+            ]
+        },
+        {
+            "file": "plugins/cordova-plugin-admobpro/www/AdMob.js",
+            "id": "cordova-plugin-admobpro.AdMob",
+            "pluginId": "cordova-plugin-admobpro",
+            "clobbers": [
+                "window.AdMob"
+            ]
+        },
         {
             "file": "plugins/cordova-plugin-console/www/console-via-logger.js",
             "id": "cordova-plugin-console.console",
@@ -140,36 +226,11 @@
             ]
         },
         {
-            "file": "plugins/nl.x-services.plugins.socialsharing/www/SocialSharing.js",
-            "id": "nl.x-services.plugins.socialsharing.SocialSharing",
-            "pluginId": "nl.x-services.plugins.socialsharing",
+            "file": "plugins/cordova-plugin-device/www/device.js",
+            "id": "cordova-plugin-device.device",
+            "pluginId": "cordova-plugin-device",
             "clobbers": [
-                "window.plugins.socialsharing"
-            ]
-        },
-        {
-            "file": "plugins/com.rjfun.cordova.iad/www/iAd.js",
-            "id": "com.rjfun.cordova.iad.iAd",
-            "pluginId": "com.rjfun.cordova.iad",
-            "clobbers": [
-                "window.iAd"
-            ]
-        },
-        {
-            "file": "plugins/cordova-plugin-admobpro/www/AdMob.js",
-            "id": "cordova-plugin-admobpro.AdMob",
-            "pluginId": "cordova-plugin-admobpro",
-            "clobbers": [
-                "window.AdMob"
-            ]
-        },
-        {
-            "file": "plugins/de.appplant.cordova.plugin.email-composer/www/email_composer.js",
-            "id": "de.appplant.cordova.plugin.email-composer.EmailComposer",
-            "pluginId": "de.appplant.cordova.plugin.email-composer",
-            "clobbers": [
-                "cordova.plugins.email",
-                "plugin.email"
+                "device"
             ]
         },
         {
@@ -179,53 +240,6 @@
             "merges": [
                 "navigator.notification"
             ]
-        },
-        {
-            "file": "plugins/cordova-plugin-globalization/www/GlobalizationError.js",
-            "id": "cordova-plugin-globalization.GlobalizationError",
-            "pluginId": "cordova-plugin-globalization",
-            "clobbers": [
-                "window.GlobalizationError"
-            ]
-        },
-        {
-            "file": "plugins/cordova-plugin-globalization/www/globalization.js",
-            "id": "cordova-plugin-globalization.globalization",
-            "pluginId": "cordova-plugin-globalization",
-            "clobbers": [
-                "navigator.globalization"
-            ]
-        },
-        {
-            "file": "plugins/org.pushandplay.cordova.apprate/www/AppRate.js",
-            "id": "org.pushandplay.cordova.apprate.AppRate",
-            "pluginId": "org.pushandplay.cordova.apprate",
-            "clobbers": [
-                "AppRate"
-            ]
-        },
-        {
-            "file": "plugins/org.pushandplay.cordova.apprate/www/locales.js",
-            "id": "org.pushandplay.cordova.apprate.locales",
-            "pluginId": "org.pushandplay.cordova.apprate",
-            "runs": true
-        },
-        {
-            "file": "plugins/com.phonegap.plugins.PushPlugin/www/PushNotification.js",
-            "id": "com.phonegap.plugins.PushPlugin.PushNotification",
-            "pluginId": "com.phonegap.plugins.PushPlugin",
-            "clobbers": [
-                "PushNotification"
-            ]
-        },
-        {
-            "file": "plugins/ionic-plugin-keyboard/www/ios/keyboard.js",
-            "id": "ionic-plugin-keyboard.keyboard",
-            "pluginId": "ionic-plugin-keyboard",
-            "clobbers": [
-                "cordova.plugins.Keyboard"
-            ],
-            "runs": true
         },
         {
             "file": "plugins/cordova-plugin-geolocation/www/Coordinates.js",
@@ -260,28 +274,96 @@
             ]
         },
         {
+            "file": "plugins/cordova-plugin-globalization/www/GlobalizationError.js",
+            "id": "cordova-plugin-globalization.GlobalizationError",
+            "pluginId": "cordova-plugin-globalization",
+            "clobbers": [
+                "window.GlobalizationError"
+            ]
+        },
+        {
+            "file": "plugins/cordova-plugin-globalization/www/globalization.js",
+            "id": "cordova-plugin-globalization.globalization",
+            "pluginId": "cordova-plugin-globalization",
+            "clobbers": [
+                "navigator.globalization"
+            ]
+        },
+        {
+            "file": "plugins/cordova-plugin-googleplus/www/GooglePlus.js",
+            "id": "cordova-plugin-googleplus.GooglePlus",
+            "pluginId": "cordova-plugin-googleplus",
+            "clobbers": [
+                "window.plugins.googleplus"
+            ]
+        },
+        {
+            "file": "plugins/cordova-plugin-inappbrowser/www/inappbrowser.js",
+            "id": "cordova-plugin-inappbrowser.inappbrowser",
+            "pluginId": "cordova-plugin-inappbrowser",
+            "clobbers": [
+                "cordova.InAppBrowser.open",
+                "window.open"
+            ]
+        },
+        {
             "file": "plugins/cordova-plugin-splashscreen/www/splashscreen.js",
             "id": "cordova-plugin-splashscreen.SplashScreen",
             "pluginId": "cordova-plugin-splashscreen",
             "clobbers": [
                 "navigator.splashscreen"
             ]
+        },
+        {
+            "file": "plugins/de.appplant.cordova.plugin.email-composer/www/email_composer.js",
+            "id": "de.appplant.cordova.plugin.email-composer.EmailComposer",
+            "pluginId": "de.appplant.cordova.plugin.email-composer",
+            "clobbers": [
+                "cordova.plugins.email",
+                "plugin.email"
+            ]
+        },
+        {
+            "file": "plugins/nl.x-services.plugins.socialsharing/www/SocialSharing.js",
+            "id": "nl.x-services.plugins.socialsharing.SocialSharing",
+            "pluginId": "nl.x-services.plugins.socialsharing",
+            "clobbers": [
+                "window.plugins.socialsharing"
+            ]
+        },
+        {
+            "file": "plugins/org.pushandplay.cordova.apprate/www/AppRate.js",
+            "id": "org.pushandplay.cordova.apprate.AppRate",
+            "pluginId": "org.pushandplay.cordova.apprate",
+            "clobbers": [
+                "AppRate"
+            ]
+        },
+        {
+            "file": "plugins/org.pushandplay.cordova.apprate/www/locales.js",
+            "id": "org.pushandplay.cordova.apprate.locales",
+            "pluginId": "org.pushandplay.cordova.apprate",
+            "runs": true
         }
     ],
     "plugin_metadata": {
-        "cordova-plugin-console": "1.0.2",
-        "nl.x-services.plugins.socialsharing": "4.3.19",
+        "ionic-plugin-keyboard": "1.0.8",
+        "com.phonegap.plugins.PushPlugin": "2.5.0",
         "cordova-plugin-extension": "1.2.3",
         "com.rjfun.cordova.iad": "2.0.4",
+        "com.synconset.imagepicker": "1.0.7",
         "cordova-plugin-admobpro": "2.10.0",
+        "cordova-plugin-console": "1.0.2",
+        "cordova-plugin-device": "1.1.0",
+        "cordova-plugin-dialogs": "1.2.0",
+        "cordova-plugin-geolocation": "1.0.1",
+        "cordova-plugin-globalization": "1.0.2",
+        "cordova-plugin-googleplus": "4.0.7",
+        "cordova-plugin-inappbrowser": "1.1.2-dev",
+        "cordova-plugin-splashscreen": "2.1.0",
         "cordova-plugin-whitelist": "1.2.0",
         "de.appplant.cordova.plugin.email-composer": "0.8.3dev",
-        "cordova-plugin-dialogs": "1.2.0",
-        "cordova-plugin-globalization": "1.0.2",
-        "org.pushandplay.cordova.apprate": "1.1.7",
-        "com.phonegap.plugins.PushPlugin": "2.5.0",
-        "ionic-plugin-keyboard": "1.0.8",
-        "cordova-plugin-geolocation": "1.0.1",
-        "cordova-plugin-splashscreen": "2.1.0"
+        "nl.x-services.plugins.socialsharing": "4.3.19",
+        "org.pushandplay.cordova.apprate": "1.1.7"
     }
 }
