@@ -25,7 +25,7 @@ function processFiles(dir, callback) {
 						file = dir + '/' + file;
 						fs.stat(file, function(err, stat) {
 								if(!stat.isDirectory()) {
-										if(path.extname(file) === ".js") {
+										if(path.extname(file) === ".js" - "feedhenry-js-latest.js") {
 												lintFile(file, function(hasError) {
 														if(hasError) {
 																errorCount++;
