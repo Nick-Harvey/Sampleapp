@@ -17,6 +17,13 @@
 				"description":"The lastest in Solutions",
 				"image":"img/feeds/logos/Datacenter.png",
 				"url":"http://wordpress-niharvey.rhcloud.com/category/uncategorized/feed/"
+			},
+			{
+				"id":"track3",
+				"title":"Track3",
+				"description":"The lastest in Infrastructure",
+				"image":"img/feeds/logos/Datacenter.png",
+				"url":"http://wordpress-niharvey.rhcloud.com/category/uncategorized/feed/"
 			}
 		]
 	},
@@ -26,25 +33,25 @@
 		"image":"img/feeds/EMEA.png",
 		"feed_sources":[
 			{
-				"id":"the-guardian",
-				"title":"The Guardian",
-				"description":"Latest news and features from theguardian.com, the world's leading liberal voice",
-				"image":"img/feeds/logos/Mobile.png",
-				"url":"http://www.theguardian.com/sport/rss"
-			},
-			{
-				"id":"bbc",
-				"title":"BBC",
-				"description":"The latest stories from the Sport section of the BBC Sport web site.",
+				"id":"track1",
+				"title":"Track1",
+				"description":"The lastest in Cloud",
 				"image":"img/feeds/logos/Cloud.png",
-				"url":"http://feeds.bbci.co.uk/sport/0/rss.xml"
+				"url":"http://wordpress-niharvey.rhcloud.com/category/track1/feed/"
 			},
 			{
-				"id":"sky",
-				"title":"Sky",
-				"description":"Latest news from sky.com",
+				"id":"track2",
+				"title":"Track2",
+				"description":"The lastest in Solutions",
 				"image":"img/feeds/logos/Datacenter.png",
-				"url":"#"
+				"url":"http://wordpress-niharvey.rhcloud.com/category/uncategorized/feed/"
+			},
+			{
+				"id":"track3",
+				"title":"Track3",
+				"description":"The lastest in Infrastructure",
+				"image":"img/feeds/logos/Datacenter.png",
+				"url":"http://wordpress-niharvey.rhcloud.com/category/uncategorized/feed/"
 			}
 		]
 	},
@@ -54,25 +61,25 @@
 		"image":"img/feeds/LATAM.png",
 		"feed_sources":[
 			{
-				"id":"forbes",
-				"title":"Forbes",
-				"description":"Forbes - Business",
-				"image":"img/feeds/logos/Datacenter.png",
-				"url":"http://www.forbes.com/business/feed/"
-			},
-			{
-				"id":"reuters",
-				"title":"Reuters",
-				"description":"Reuters.com is your source for breaking news, business, financial and investing news, including personal finance and stocks. Reuters is the leading global provider of news, financial information and technology solutions to the world's media, financial institutions, businesses and individuals.",
-				"image":"img/feeds/logos/Mobile.png",
-				"url":"http://feeds.reuters.com/reuters/businessNews"
-			},
-			{
-				"id":"the-economist",
-				"title":"The Economist",
-				"description":"The Economist business and finance",
+				"id":"track1",
+				"title":"Track1",
+				"description":"The lastest in Cloud",
 				"image":"img/feeds/logos/Cloud.png",
-				"url":"http://www.economist.com/sections/business-finance/rss.xml"
+				"url":"http://wordpress-niharvey.rhcloud.com/category/track1/feed/"
+			},
+			{
+				"id":"track2",
+				"title":"Track2",
+				"description":"The lastest in Solutions",
+				"image":"img/feeds/logos/Datacenter.png",
+				"url":"http://wordpress-niharvey.rhcloud.com/category/uncategorized/feed/"
+			},
+			{
+				"id":"track3",
+				"title":"Track3",
+				"description":"The lastest in Infrastructure",
+				"image":"img/feeds/logos/Datacenter.png",
+				"url":"http://wordpress-niharvey.rhcloud.com/category/uncategorized/feed/"
 			}
 		]
 	},
@@ -82,25 +89,25 @@
 		"image":"img/feeds/APAC.png",
 		"feed_sources":[
 			{
-				"id":"the-hollywood-reporter",
-				"title":"The Hollywood Reporter",
-				"description":"The Hollywood Reporter news",
+				"id":"track1",
+				"title":"Track1",
+				"description":"The lastest in Cloud",
 				"image":"img/feeds/logos/Cloud.png",
-				"url":"http://feeds.feedburner.com/thr/news"
+				"url":"http://wordpress-niharvey.rhcloud.com/category/track1/feed/"
 			},
 			{
-				"id":"tmz",
-				"title":"TMZ",
-				"description":"Celebrity Gossip and Entertainment News, Covering Celebrity News and Hollywood Rumors. Get All The Latest Gossip at TMZ - Thirty Mile Zone.",
-				"image":"img/feeds/logos/Mobile.png",
-				"url":"http://www.tmz.com/rss.xml"
-			},
-			{
-				"id":"the-guardian",
-				"title":"The Guardian",
-				"description":"Latest news and features from theguardian.com, the world's leading liberal voice",
+				"id":"track2",
+				"title":"Track2",
+				"description":"The lastest in Solutions",
 				"image":"img/feeds/logos/Datacenter.png",
-				"url":"http://www.theguardian.com/culture/rss"
+				"url":"http://wordpress-niharvey.rhcloud.com/category/uncategorized/feed/"
+			},
+			{
+				"id":"track3",
+				"title":"Track3",
+				"description":"The lastest in Infrastructure",
+				"image":"img/feeds/logos/Datacenter.png",
+				"url":"http://wordpress-niharvey.rhcloud.com/category/uncategorized/feed/"
 			}
 		]
 	}
