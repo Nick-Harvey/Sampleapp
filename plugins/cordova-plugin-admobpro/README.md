@@ -236,6 +236,7 @@ API Reference:
 
 Other Documentations:
 * [ChangeLog](https://github.com/floatinghotpot/cordova-admob-pro/wiki/ChangeLog)
+* [Known issues & solutions/workarounds](https://github.com/floatinghotpot/cordova-admob-pro/wiki/Known-Issues-&-Solution---Workaround)
 * [FAQ](https://github.com/floatinghotpot/cordova-admob-pro/wiki/FAQ)
 * [Notice for Android Proguard](https://github.com/floatinghotpot/cordova-admob-pro/wiki/Notice-for-Android-Proguard)
 
@@ -254,9 +255,6 @@ Ad Format | Banner | Interstitial
 ---|-------|--------------
 Click Rate | < 1% | 3-15%
 RPM (revenue per 1000 impression) |  US$ 0.5~4 | US$ 10~100
-
-- [x] RPM top countries (stat data in recent 2 months, FYI):
-![ScreenShot](https://github.com/floatinghotpot/cordova-admob-pro/raw/master/docs/stat_ref.png)
 
 - [x] Using SMART_BANNER to auto-fit the screen width, avoid using BANNER or FULL_BANNER (unless you are using DFP)
 

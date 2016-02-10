@@ -10,12 +10,6 @@
         "ionic-plugin-keyboard": {
             "PACKAGE_NAME": "com.redhat.SKOApp"
         },
-        "com.phonegap.plugins.PushPlugin": {
-            "PACKAGE_NAME": "com.redhat.SKOApp"
-        },
-        "com.rjfun.cordova.iad": {
-            "PACKAGE_NAME": "com.redhat.SKOApp"
-        },
         "com.synconset.imagepicker": {
             "PACKAGE_NAME": "com.redhat.SKOApp"
         },
@@ -31,6 +25,9 @@
         "cordova-plugin-dialogs": {
             "PACKAGE_NAME": "com.redhat.SKOApp"
         },
+        "cordova-plugin-email": {
+            "PACKAGE_NAME": "com.redhat.SKOApp"
+        },
         "cordova-plugin-extension": {
             "PACKAGE_NAME": "com.redhat.SKOApp"
         },
@@ -38,10 +35,6 @@
             "PACKAGE_NAME": "com.redhat.SKOApp"
         },
         "cordova-plugin-globalization": {
-            "PACKAGE_NAME": "com.redhat.SKOApp"
-        },
-        "cordova-plugin-googleplus": {
-            "REVERSED_CLIENT_ID": "849511726163-unqhl9aoshl0h2ripn0kj15vskn4h12a.apps.googleusercontent.com",
             "PACKAGE_NAME": "com.redhat.SKOApp"
         },
         "cordova-plugin-inappbrowser": {
@@ -53,13 +46,10 @@
         "cordova-plugin-whitelist": {
             "PACKAGE_NAME": "com.redhat.SKOApp"
         },
-        "de.appplant.cordova.plugin.email-composer": {
+        "cordova-plugin-wkwebview-engine": {
             "PACKAGE_NAME": "com.redhat.SKOApp"
         },
-        "nl.x-services.plugins.socialsharing": {
-            "PACKAGE_NAME": "com.redhat.SKOApp"
-        },
-        "org.pushandplay.cordova.apprate": {
+        "phonegap-plugin-push": {
             "PACKAGE_NAME": "com.redhat.SKOApp"
         }
     },

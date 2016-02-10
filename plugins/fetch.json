@@ -1,23 +1,4 @@
 {
-    "cordova-plugin-inappbrowser": {
-        "source": {
-            "type": "git",
-            "url": "https://git-wip-us.apache.org/repos/asf/cordova-plugin-inappbrowser.git",
-            "subdir": "."
-        },
-        "is_top_level": true,
-        "variables": {}
-    },
-    "cordova-plugin-googleplus": {
-        "source": {
-            "type": "registry",
-            "id": "cordova-plugin-googleplus"
-        },
-        "is_top_level": true,
-        "variables": {
-            "REVERSED_CLIENT_ID": "849511726163-unqhl9aoshl0h2ripn0kj15vskn4h12a.apps.googleusercontent.com"
-        }
-    },
     "cordova-plugin-console": {
         "source": {
             "type": "registry",
@@ -67,38 +48,6 @@
         "is_top_level": true,
         "variables": {}
     },
-    "nl.x-services.plugins.socialsharing": {
-        "source": {
-            "type": "registry",
-            "id": "nl.x-services.plugins.socialsharing@^4.3.19"
-        },
-        "is_top_level": true,
-        "variables": {}
-    },
-    "cordova-plugin-x-socialsharing": {
-        "source": {
-            "type": "registry",
-            "id": "cordova-plugin-x-socialsharing"
-        },
-        "is_top_level": true,
-        "variables": {}
-    },
-    "com.rjfun.cordova.iad": {
-        "source": {
-            "type": "registry",
-            "id": "com.rjfun.cordova.iad@^2.0.4"
-        },
-        "is_top_level": true,
-        "variables": {}
-    },
-    "cordova-plugin-iad": {
-        "source": {
-            "type": "registry",
-            "id": "cordova-plugin-iad"
-        },
-        "is_top_level": true,
-        "variables": {}
-    },
     "cordova-plugin-admobpro": {
         "source": {
             "type": "registry",
@@ -109,35 +58,24 @@
     },
     "cordova-plugin-whitelist": {
         "source": {
-            "type": "git",
-            "url": "https://github.com/apache/cordova-plugin-whitelist.git",
-            "subdir": "."
+            "type": "registry",
+            "id": "cordova-plugin-whitelist@^1.0.0"
         },
         "is_top_level": true,
         "variables": {}
     },
-    "de.appplant.cordova.plugin.email-composer": {
-        "source": {
-            "type": "git",
-            "url": "https://github.com/katzer/cordova-plugin-email-composer.git",
-            "subdir": "."
-        },
-        "is_top_level": true,
-        "variables": {}
-    },
-    "org.pushandplay.cordova.apprate": {
+    "cordova-plugin-email": {
         "source": {
             "type": "registry",
-            "id": "org.pushandplay.cordova.apprate@^1.1.7"
+            "id": "cordova-plugin-email@^1.1.0"
         },
         "is_top_level": true,
         "variables": {}
     },
-    "com.phonegap.plugins.PushPlugin": {
+    "phonegap-plugin-push": {
         "source": {
-            "type": "git",
-            "url": "https://github.com/phonegap-build/PushPlugin.git",
-            "subdir": "."
+            "type": "registry",
+            "id": "phonegap-plugin-push@^1.5.3"
         },
         "is_top_level": true,
         "variables": {}
@@ -163,6 +101,22 @@
         "source": {
             "type": "registry",
             "id": "cordova-plugin-splashscreen@^2.1.0"
+        },
+        "is_top_level": true,
+        "variables": {}
+    },
+    "cordova-plugin-wkwebview-engine": {
+        "source": {
+            "type": "registry",
+            "id": "cordova-plugin-wkwebview-engine@~1.0.1"
+        },
+        "is_top_level": true,
+        "variables": {}
+    },
+    "cordova-plugin-inappbrowser": {
+        "source": {
+            "type": "registry",
+            "id": "cordova-plugin-inappbrowser@~1.2.1"
         },
         "is_top_level": true,
         "variables": {}
